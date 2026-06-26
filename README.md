@@ -99,17 +99,6 @@ jupyter notebook 04_annotation/03.1annotationTask.ipynb
 3. **批次效应**: 如发现严重批次效应，考虑使用Harmony或Seurat Integration
 4. **Marker基因**: 根据物种和组织类型准备合适的marker基因列表
 
-## 常见问题
-
-**Q: 如何判断质控参数是否合适？**
-A: 检查质控后细胞保留率（建议≥70%），观察VlnPlot确保去除了低质量细胞。
-
-**Q: 如何选择最佳resolution？**
-A: 结合cluster number图和clustree图，选择聚类数量合理且节点稳定的resolution。
-
-**Q: 双胞过滤效果如何验证？**
-A: 观察DoubletFinder pK选择图和双胞比例（应接近设定值5%）。
-
 ## 引用
 
 如果使用本流程，请引用相关工具：
@@ -120,8 +109,3 @@ A: 观察DoubletFinder pK选择图和双胞比例（应接近设定值5%）。
 ## 许可证
 
 MIT License
-
-## 联系方式
-
-- GitHub: https://github.com/Winnie1376/snRNAseq
-- Issues: 欢迎提交问题和建议
