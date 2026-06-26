@@ -1,0 +1,42 @@
+# R and RStudio files
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Large data files
+*.rds
+*.RDS
+*.h5
+*.h5ad
+*.loom
+
+# Output files
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Temporary files
+*~
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Data directories (uncomment if needed)
+# data/
+# output/
+# results/
+
+# Environment
+.Renv/
+renv/
+.venv/
+venv/
